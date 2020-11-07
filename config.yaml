@@ -1,6 +1,6 @@
 baseURL: '/'
 title: Espaço Mithari
-theme: meghna-hugo
+theme: meghna
 paginate: '6'
 summaryLength: '15'
 disqusShortname: ''
