@@ -8,48 +8,70 @@ fields:
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Habilitar
+    description: Selecione para habilitar a seção de contato
   - type: text
     name: title
-    label: title
+    label: Título
+    description: Título da seção
   - type: text
     name: subtitle
-    label: subtitle
+    label: Subtítulo
+    description: Subítulo da seção
   - type: textarea
     name: content
-    label: content
+    label: Descrição
+    description: Descrição da seção
   - type: field_group_list
     name: contact_list
-    label: contact_list
+    label: Lista de contatos
     fields:
     - type: text
       name: icon
-      label: icon
+      label: Ícone
+      description: Adicione aqui o nome do ícone que deseja adicionar ( esse ícone
+        precisa existir com esse nome no projeto, se não não irá funcionar) para ver
+        a lista de ícones disponíveis acesse...(depois adicionar link...)
     - type: text
       name: info
-      label: info
+      label: Informação
+      description: Aqui irá a informação sobre o contato
+    description: Aqui virá a lista de contatos
   - type: field_group
     name: contact_form
-    label: contact_form
+    label: Formulário para contato
     fields:
     - type: boolean
       name: enable
-      label: enable
+      label: Habilitar
+      description: Selecione para habilitar a opção de enviar formulário de contato.
     - type: text
       name: form_action
-      label: form_action
+      label: Link de ação do formulário
+      hidden: false
+      description: 'Url de envio dos dados do formulário '
     - type: text
       name: name
-      label: name
+      label: Placeholder para o campo Nome
+      description: Informação que vai aparecer no campo antes do usuário digitar algum
+        dado
     - type: text
       name: email
-      label: email
+      label: Placeholder para o campo Email
+      description: Informação que vai aparecer no campo antes do usuário digitar algum
+        dado
     - type: text
       name: subject
-      label: subject
+      label: Placeholder para o campo Assunto
+      description: Informação que vai aparecer no campo antes do usuário digitar algum
+        dado
     - type: text
       name: message
-      label: message
+      label: Placeholder para o campo Mensagem
+      description: Informação que vai aparecer no campo antes do usuário digitar algum
+        dado
     - type: text
       name: submit
-      label: submit
+      label: Botão submit
+      description: Texto que irá aparecer no botão submit do formulário
+    description: Aqui começa o formulário para contato
