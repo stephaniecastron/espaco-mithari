@@ -36,3 +36,5 @@ fields:
       name: count
       label: Número ( contador)
       description: Número que irá aparecer em baixo de cada ícone
+pages:
+- data/pt/funfacts.yml
