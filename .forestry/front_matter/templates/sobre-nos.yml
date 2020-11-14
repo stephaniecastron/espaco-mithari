@@ -33,3 +33,5 @@ fields:
       label: Dscrição
       description: Descrição do item
     description: Aqui é uma lista de itens para a seção.
+pages:
+- data/pt/about.yml
