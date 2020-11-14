@@ -53,3 +53,5 @@ fields:
         description: Link que irá direcionar para a rede social
       label: Lista de Rede Social
     description: Aqui é uma lista de itens para a seção.
+pages:
+- data/pt/team.yml
