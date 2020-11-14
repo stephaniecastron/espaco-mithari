@@ -1,0 +1,36 @@
+---
+label: Serviços
+hide_body: true
+fields:
+- type: field_group
+  name: service
+  label: Serviços
+  fields:
+  - type: boolean
+    name: enable
+    label: Habilitar
+    description: Selecione para habilitar a seção
+  - type: text
+    name: title
+    label: Título
+    description: Título que será mostrado na seção
+  - type: field_group_list
+    name: service_item
+    label: Lista de itens
+    fields:
+    - type: text
+      name: name
+      label: Nome
+      description: Nome do item
+    - type: text
+      name: icon
+      label: Ícone do item
+      description: Adicione aqui o nome do ícone que deseja adicionar ( esse ícone
+        precisa existir com esse nome no projeto, se não não irá funcionar) para ver
+        a lista de ícones disponíveis acesse...(depois adicionar link...)
+    - type: textarea
+      name: content
+      label: Descrição
+      description: Descrição do item
+pages:
+- data/pt/service.yml

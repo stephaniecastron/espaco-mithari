@@ -1,0 +1,53 @@
+---
+label: Preços
+hide_body: true
+fields:
+- type: field_group
+  name: pricing
+  label: pricing
+  fields:
+  - type: boolean
+    name: enable
+    label: Habilitar
+    description: Selecione para habilitar a seção
+  - type: text
+    name: title
+    label: Título
+    description: Título que será mostrado na seção
+  - type: field_group_list
+    name: pricing_table
+    label: Tabela de preço
+    fields:
+    - type: text
+      name: name
+      label: Nome
+      description: Nome do item
+    - type: text
+      name: price
+      label: Preço
+      description: Preço do item
+    - type: text
+      name: unit
+      label: Frequência
+      description: Frequência de pagamento
+    - type: list
+      name: services
+      label: Serviços
+      description: Serviços incluso na mensalidade
+    - type: field_group
+      name: button
+      label: Botão de ação
+      fields:
+      - type: text
+        name: label
+        label: Texto do botão
+        description: Texto que irá aparecer no botão
+      - type: text
+        name: link
+        label: Link do botão de ação
+        description: 'aqui pode ser adicionado um link para uma seção (como o #contact
+          por exemplo, ou uma url completa)'
+      description: Botão que será mostrado e que pode ser linkado a uma parte do site
+        ou alguma outra url
+pages:
+- data/pt/pricing.yml
