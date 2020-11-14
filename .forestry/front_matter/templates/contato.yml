@@ -75,3 +75,5 @@ fields:
       label: Botão submit
       description: Texto que irá aparecer no botão submit do formulário
     description: Aqui começa o formulário para contato
+pages:
+- data/pt/contact.yml
