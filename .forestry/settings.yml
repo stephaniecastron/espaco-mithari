@@ -17,17 +17,17 @@ sections:
   new_doc_ext: yml
 - type: directory
   path: content
-  label: Pages
+  label: Páginas para o conteúdo (blog/autor)
   create: all
   match: "*"
 - type: directory
   path: content/portuguese
-  label: Português
+  label: Conteúdo (páginas blog/autor) Português
   create: all
   match: "**/*"
 - type: directory
   path: content/english
-  label: English
+  label: Conteúdo (páginas blog/autor) Inglês
   create: all
   match: "**/*"
 upload_dir: static/uploads
