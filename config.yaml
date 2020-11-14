@@ -6,6 +6,8 @@ paginate: '6'
 summaryLength: '15'
 disqusShortname: ''
 disableLanguages: []
+defaultContentLanguage: pt
+languageCode: "pt-br"
 params:
   plugins:
     css:
