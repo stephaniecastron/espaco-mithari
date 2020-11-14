@@ -44,3 +44,5 @@ fields:
         por exemplo, ou uma url completa)'
     description: Botão que será mostrado abaixo da descrição e que pode ser linkado
       a uma parte do site ou alguma outra url
+pages:
+- data/pt/cta.yml
