@@ -5,8 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: data/portuguese
+  label: Conteúdo página inicial em português
+  create: all
+  match: "**/*"
+- type: directory
   path: data/en
-  label: Data/en
+  label: Conteúdo página inicial em inglês
   create: all
   match: "**/*"
   new_doc_ext: yml
