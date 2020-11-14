@@ -12,11 +12,11 @@ fields:
     description: Selecione para habilitar a seção cta
   - type: file
     name: bg_image
-    label: Banner .jpg
+    label: Imagem de fundo .jpg
     description: Colocar aqui a imagem que vai aparecer na seção
   - type: file
     name: bg_image_webp
-    label: Banner .webp
+    label: Imagem de fundo .webp
     description: Colocar aqui a imagem que vai aparecer na seção
   - type: text
     name: title
