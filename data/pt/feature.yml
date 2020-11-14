@@ -9,15 +9,12 @@ feature:
   - title: 'Título do item 1 '
     icon: ti-world
     content: 'Descrição do item 1 '
-  - title: Easy Customization
+  - title: Título do item 2
     icon: ti-panel
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
-  - title: SEO Optimized
+    content: 'Descrição do item 1 '
+  - title: Título do item 3
     icon: ti-stats-up
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
-  - title: Easy Customization
+    content: Descrição do item 3
+  - title: Título do item 4
     icon: ti-announcement
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    content: 'Descrição do item 4 '
