@@ -1,12 +1,12 @@
----
+############################### Banner ################################
 banner:
-  enable: true
-  bg_image_webp: "/uploads/sarampo-1563982194748_v2_900x506.jpg"
-  bg_image: "/uploads/sarampo-1563982194748_v2_900x506.jpg"
-  icon: ''
-  title: Esse é um teste de título
-  content: Já aqui temos o teste da descrição que queremos mostrar no banner
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Experience the new reality"
+  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
   button:
-    enable: true
-    label: Vá para a seção de serviço
-    link: "#services"
+    enable : true
+    label : "Explore Us"
+    link : "#services"

@@ -6,6 +6,8 @@ paginate: '6'
 summaryLength: '15'
 disqusShortname: ''
 disableLanguages: []
+defaultContentLanguage: pt
+languageCode: "pt-br"
 params:
   plugins:
     css:
@@ -96,7 +98,7 @@ Languages:
     languageName: En
     languageCode: en-us
     contentDir: content/english
-    weight: 1
+    weight: 2
     home: Home
     copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com)
       & Developed by [Gethugothemes](https://gethugothemes.com)
