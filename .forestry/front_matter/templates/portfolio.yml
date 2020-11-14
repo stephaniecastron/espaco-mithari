@@ -4,33 +4,42 @@ hide_body: true
 fields:
 - type: field_group
   name: portfolio
-  label: portfolio
+  label: Portfólio
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Habilitar
+    description: Selecione para habilitar a seção
   - type: text
     name: title
-    label: title
+    label: Título
+    description: Título da seção
   - type: field_group_list
     name: portfolio_item
-    label: portfolio_item
+    label: Itens da seção
     fields:
     - type: text
       name: name
-      label: name
+      label: Nome
+      description: Nome do item
     - type: file
       name: image
-      label: image
+      label: Imagem .jpg
+      description: Imagem do item
     - type: file
       name: image_webp
-      label: image_webp
+      label: Imagem .webp
+      description: Imagem do item
     - type: list
       name: categories
-      label: categories
+      label: Categorias
+      description: Categorias do item
     - type: text
       name: content
-      label: content
+      label: Descrição
+      description: Descrição do item
     - type: text
       name: link
-      label: link
+      label: Link
+      description: Link do item
+    description: Aqui é uma lista de itens para a seção.
