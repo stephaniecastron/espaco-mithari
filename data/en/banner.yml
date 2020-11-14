@@ -2,7 +2,7 @@
 banner:
   enable: true
   bg_image_webp: ''
-  bg_image: "/uploads/sarampo-1563982194748_v2_900x506.jpg"
+  bg_image: ''
   icon: ''
   title: Esse é um teste de título
   content: Já aqui temos o teste da descrição que queremos mostrar no banner
