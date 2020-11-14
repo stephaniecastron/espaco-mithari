@@ -1,5 +1,5 @@
 - id: blogTitle
-  translation: Último Post
+  translation: Últimas Publicações
 - id: readMore
   translation: Leia Mais
 - id: viewAllPost
@@ -9,7 +9,7 @@
 - id: aboutAuthor
   translation: Sobre o Autor
 - id: authorsPosts
-  translation: Post's do Autor
+  translation: Publicações do Autor
 - id: all
   translation: Todos
 - id: about
