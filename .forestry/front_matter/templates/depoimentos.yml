@@ -42,3 +42,5 @@ fields:
       name: content
       label: Descrição
       description: Descrição do item
+pages:
+- data/pt/testimonial.yml
