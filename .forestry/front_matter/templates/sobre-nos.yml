@@ -20,7 +20,7 @@ fields:
     fields:
     - type: text
       name: icon
-      label: Ícone do item
+      label: Ícone
       description: Adicione aqui o nome do ícone que deseja adicionar ( esse ícone
         precisa existir com esse nome no projeto, se não não irá funcionar) para ver
         a lista de ícones disponíveis acesse...(depois adicionar link...)
