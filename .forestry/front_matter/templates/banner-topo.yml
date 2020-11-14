@@ -8,7 +8,8 @@ fields:
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Habilitar
+    description: Selecione para habilitar o banner do topo do site
   - type: file
     name: bg_image_webp
     label: Banner home topo .webp
@@ -48,5 +49,3 @@ fields:
         por exemplo, ou uma url completa)'
     description: Botão que será mostrado abaixo da descrição é que pode ser linkado
       a uma parte da home ou alguma outra url
-pages:
-- data/en/banner-1.yml
