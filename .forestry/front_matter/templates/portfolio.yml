@@ -43,3 +43,5 @@ fields:
       label: Link
       description: Link do item
     description: Aqui é uma lista de itens para a seção.
+pages:
+- data/pt/portfolio.yml
