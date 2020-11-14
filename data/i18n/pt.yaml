@@ -1,0 +1,28 @@
+- id: blogTitle
+  translation: Último Post
+- id: readMore
+  translation: Leia Mais
+- id: viewAllPost
+  translation: Visualizar Tudp
+- id: share
+  translation: Compartilhar
+- id: aboutAuthor
+  translation: Sobre o Autor
+- id: authorsPosts
+  translation: Post's do Autor
+- id: all
+  translation: Todos
+- id: about
+  translation: Sobre nós
+- id: services
+  translation: Serviços
+- id: portfolio
+  translation: Portfólio
+- id: team
+  translation: Nossa Equipe
+- id: pricing
+  translation: Preço
+- id: blog
+  translation: Blog
+- id: contact
+  translation: Contato
