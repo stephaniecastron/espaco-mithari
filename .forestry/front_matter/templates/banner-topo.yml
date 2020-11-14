@@ -11,29 +11,40 @@ fields:
     label: enable
   - type: file
     name: bg_image_webp
-    label: bg_image_webp
+    label: Banner home topo .webp
+    description: Colocar aqui a imagem que vai aparecer na tela inicial do site
   - type: file
     name: bg_image
-    label: bg_image
+    label: Banner home topo .jpg
+    description: Colocar aqui a imagem que vai aparecer na tela inicial do site
   - type: text
     name: icon
-    label: icon
+    label: Ícone que deseja mostrar
+    description: Adicionar o nome do ícone que deseja apresentar, se não preencher
+      esse campo, nada será mostrado
   - type: text
     name: title
-    label: title
+    label: Título
+    description: Título que será mostrado em cima do banner
   - type: textarea
     name: content
-    label: content
+    label: Descrição
+    description: Texto que será mostrado abaixo do título
   - type: field_group
     name: button
-    label: button
+    label: Botão de ação
     fields:
     - type: boolean
       name: enable
-      label: enable
+      label: Habilitar o botão de ação
     - type: text
       name: label
-      label: label
+      label: Texto do botão
+      description: Texto que irá aparecer no botão
     - type: text
       name: link
-      label: link
+      label: Link do botão de ação
+      description: 'aqui pode ser adicionado um link para uma seção (como o #services
+        por exemplo, ou uma url completa)'
+    description: Botão que será mostrado abaixo da descrição é que pode ser linkado
+      a uma parte da home ou alguma outra url
