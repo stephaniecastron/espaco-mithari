@@ -8,36 +8,48 @@ fields:
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Habilitar
+    description: "<code>Selecione para habilitar a seção</code>  "
   - type: text
     name: title
-    label: title
+    label: Título
+    description: Título da seção
   - type: field_group_list
     name: team_member
-    label: team_member
+    label: Itens da seção
     fields:
     - type: text
       name: name
-      label: name
+      label: Nome
+      description: Nome do item
     - type: file
       name: image_webp
-      label: image_webp
+      label: Imagem .webp
+      description: Imagem do item
     - type: file
       name: image
-      label: image
+      label: Imagem .jpg
+      description: Imagem do item
     - type: text
       name: designation
-      label: designation
+      label: Especialidade
+      description: Especialidade do item
     - type: textarea
       name: content
-      label: content
+      label: Descrição
+      description: Descrição do item
     - type: field_group_list
       name: social
-      label: social
       fields:
       - type: text
         name: icon
-        label: icon
+        label: Ícone
+        description: Adicione aqui o nome do ícone que deseja adicionar ( esse ícone
+          precisa existir com esse nome no projeto, se não não irá funcionar) para
+          ver a lista de ícones disponíveis acesse...(depois adicionar link...)
       - type: text
         name: link
-        label: link
+        label: Link de ação
+        description: Link que irá direcionar para a rede social
+      label: Lista de Rede Social
+    description: Aqui é uma lista de itens para a seção.
