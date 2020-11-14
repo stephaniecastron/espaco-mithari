@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: service
-  label: service
+  label: Serviços
   fields:
   - type: boolean
     name: enable
