@@ -9,7 +9,7 @@ fields:
   - type: boolean
     name: enable
     label: Habilitar
-    description: Selecione para habilitar a seção sobre nós
+    description: "<code>Selecione para habilitar a seção</code>"
   - type: text
     name: title
     label: Título
