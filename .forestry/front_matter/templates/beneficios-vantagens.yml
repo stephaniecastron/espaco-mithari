@@ -4,33 +4,43 @@ hide_body: true
 fields:
 - type: field_group
   name: feature
-  label: feature
+  label: Benefícios/Vantagens
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Habilitar
+    description: Selecione para habilitar a seção.
   - type: file
     name: image
-    label: image
+    label: Imagem .jpg
+    description: Colocar aqui a imagem que vai aparecer na seção
   - type: file
     name: image_webp
-    label: image_webp
+    label: Imagem .webp
+    description: Colocar aqui a imagem que vai aparecer na seção
   - type: text
     name: title
-    label: title
+    label: Título
+    description: Título que será mostrado na seção
   - type: textarea
     name: content
-    label: content
+    label: Descrição
+    description: Texto que será mostrado na seção
   - type: field_group_list
     name: feature_item
-    label: feature_item
+    label: Lista de itens da seção
     fields:
     - type: text
       name: title
-      label: title
+      label: Título
+      description: Título do item
     - type: text
       name: icon
-      label: icon
+      label: Ícone do item
+      description: Adicione aqui o nome do ícone que deseja adicionar ( esse ícone
+        precisa existir com esse nome no projeto, se não não irá funcionar) para ver
+        a lista de ícones disponíveis acesse...(depois adicionar link...)
     - type: textarea
       name: content
-      label: content
+      label: Descrição
+      description: Descrição do item
