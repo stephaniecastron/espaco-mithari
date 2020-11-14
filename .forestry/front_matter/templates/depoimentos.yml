@@ -1,0 +1,46 @@
+---
+label: Depoimentos
+hide_body: true
+fields:
+- type: field_group
+  name: testimonial
+  label: testimonial
+  fields:
+  - type: boolean
+    name: enable
+    label: Habilitar
+    description: Selecione para habilitar a seção
+  - type: file
+    name: bg_image
+    label: Imagem de fundo .jpg
+    description: Colocar aqui a imagem que vai aparecer na seção
+  - type: file
+    name: bg_image_webp
+    label: Imagem de fundo .webp
+    description: Colocar aqui a imagem que vai aparecer na seção
+  - type: field_group_list
+    name: testimonial_item
+    label: Lista de itens da seção
+    fields:
+    - type: text
+      name: name
+      label: Nome
+      description: Nome do item
+    - type: file
+      name: image
+      label: Imagem .jpg
+      description: Imagem do item
+    - type: file
+      name: image_webp
+      label: Imagem .webp
+      description: Imagem do item
+    - type: text
+      name: date
+      label: Data
+      description: Data do item
+    - type: textarea
+      name: content
+      label: Descrição
+      description: Descrição do item
+pages:
+- data/pt/testimonial.yml

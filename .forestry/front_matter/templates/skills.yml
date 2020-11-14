@@ -1,0 +1,39 @@
+---
+label: Skills
+hide_body: true
+fields:
+- type: field_group
+  name: skill
+  label: skill
+  fields:
+  - type: boolean
+    name: enable
+    label: Habilitar
+    description: "<code>Selecione para habilitar a seção</code>  "
+  - type: text
+    name: title
+    label: Título
+    description: Título da seção
+  - type: text
+    name: subtitle
+    label: Subtítulo
+    description: Subtítulo da seção
+  - type: textarea
+    name: content
+    label: Descrição
+  - type: file
+    name: image
+    label: Imagem
+  - type: field_group_list
+    name: skill_item
+    label: Itens da seção
+    fields:
+    - type: text
+      name: name
+      label: Nome
+      description: Nome do item
+    - type: text
+      name: percent
+      label: Porcentagem
+      description: Porcetagem do item
+    description: Aqui é uma lista de itens para a seção.
