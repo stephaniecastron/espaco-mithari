@@ -51,3 +51,4 @@ fields:
       a uma parte da home ou alguma outra url
 pages:
 - data/en/banner.yml
+- data/pt/banner.yml
