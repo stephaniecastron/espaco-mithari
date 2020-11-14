@@ -13,7 +13,7 @@ fields:
   - type: text
     name: title
     label: Título
-    description: Título que será mostrado em cima do banner
+    description: Título da seção
   - type: field_group_list
     name: about_item
     label: Itens da seção
@@ -30,7 +30,7 @@ fields:
       description: Título do item
     - type: textarea
       name: content
-      label: Dscrição
+      label: Descrição
       description: Descrição do item
     description: Aqui é uma lista de itens para a seção.
 pages:
