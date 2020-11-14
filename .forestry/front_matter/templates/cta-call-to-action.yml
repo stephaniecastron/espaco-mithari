@@ -8,29 +8,39 @@ fields:
   fields:
   - type: boolean
     name: enable
-    label: enable
+    label: Habilitar
+    description: Selecione para habilitar a seção cta
   - type: file
     name: bg_image
-    label: bg_image
+    label: Banner .jpg
+    description: Colocar aqui a imagem que vai aparecer na seção
   - type: file
     name: bg_image_webp
-    label: bg_image_webp
+    label: Banner .webp
+    description: Colocar aqui a imagem que vai aparecer na seção
   - type: text
     name: title
-    label: title
+    label: Título
+    description: Título que será mostrado na seção
   - type: textarea
     name: content
-    label: content
+    label: Descrição
+    description: Texto que será mostrado na seção
   - type: field_group
     name: button
-    label: button
+    label: Botão do CTA
     fields:
     - type: boolean
       name: enable
-      label: enable
+      label: Habilitar o botão de cta
     - type: text
       name: label
-      label: label
+      label: Texto do botão
+      description: Texto que irá aparecer no botão
     - type: text
       name: link
-      label: link
+      label: Link do botão de ação
+      description: 'aqui pode ser adicionado um link para uma seção (como o #contact
+        por exemplo, ou uma url completa)'
+    description: Botão que será mostrado abaixo da descrição e que pode ser linkado
+      a uma parte do site ou alguma outra url
