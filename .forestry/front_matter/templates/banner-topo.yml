@@ -1,5 +1,5 @@
 ---
-label: Banner Topo
+label: Banner principal
 hide_body: true
 fields:
 - type: field_group
